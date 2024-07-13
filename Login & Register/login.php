@@ -18,7 +18,7 @@
      $result = $conn->query($sql);
      
      if ($result->num_rows > 0) {
-         header("Location: welcome.php");
+         header("Location:welcome.php");
      } else {
          echo "Invalid email or password";
      }
